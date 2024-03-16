@@ -38,5 +38,8 @@
     <ClInclude Include="Source\Pop\Core\Log.hpp">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Pop\Core\LogLevel.hpp">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

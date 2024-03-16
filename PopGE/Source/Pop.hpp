@@ -4,3 +4,4 @@
 #include "Pop/Core/Application.hpp"
 #include "Pop/Core/EntryPoint.hpp"
 #include "Pop/Core/Log.hpp"
+#include "Pop/Core/LogLevel.hpp"

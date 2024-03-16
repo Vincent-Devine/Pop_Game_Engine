@@ -5,18 +5,10 @@
 #include <string>
 
 #include "Core.hpp"
-
+#include "LogLevel.hpp"
 
 namespace Pop::Core
 {
-	enum class LogLevel : unsigned int
-	{
-		Info,
-		Validation,
-		Warning,
-		Critical,
-	};
-
 	class POP_API Log
 	{
 		// Attributes

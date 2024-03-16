@@ -16,6 +16,7 @@
     <ClInclude Include="Source\Pop\Core\Core.hpp" />
     <ClInclude Include="Source\Pop\Core\EntryPoint.hpp" />
     <ClInclude Include="Source\Pop\Core\Log.hpp" />
+    <ClInclude Include="Source\Pop\Core\LogLevel.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Pop\Core\Application.cpp" />
