@@ -1,4 +1,4 @@
-# PopGE
+# Pop Game Engine
 Game Engine with OpenGL in C++ for learning
 
 ## Table of Content
@@ -12,7 +12,8 @@ Game Engine with OpenGL in C++ for learning
 ## Use it
 ### Clone
 ```shell
-git clone git@github.com:Vincent-Devine/PopGE.git
+git clone git@github.com:Vincent-Devine/Pop_Game_Engine.git
+
 git submodule update --init --recursive
 ```
 
@@ -21,7 +22,7 @@ git submodule update --init --recursive
 ## Technology
 - Engine language: C++
 - Text Editor: Visual Studio 2022
-- Versionning: [Github](https://github.com/Vincent-Devine/PopGE)
+- Versionning: [Github](https://github.com/Vincent-Devine/Pop_Game_Engine)
 
 ### Library use
 
