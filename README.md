@@ -11,9 +11,11 @@ Game Engine with OpenGL in C++ for learning
 
 ## Use it
 ### Clone
-```shell
+```bash
 git clone git@github.com:Vincent-Devine/Pop_Game_Engine.git
+```
 
+```bash
 git submodule update --init --recursive
 ```
 
