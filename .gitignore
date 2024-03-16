@@ -1,7 +1,8 @@
-# Directories
+# Visual Studio
 .vs/
+*.user
+
+# Pop
 bin/
 bin-int/
-
-# Files
-*.user
+log.txt

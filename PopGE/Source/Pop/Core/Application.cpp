@@ -12,6 +12,6 @@ namespace Pop
 
 	void Application::Run()
 	{
-		while (true);
+		// while (true);
 	}
 }

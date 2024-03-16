@@ -12,12 +12,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Pop.hpp" />
-    <ClInclude Include="Source\Pop\Application.hpp" />
-    <ClInclude Include="Source\Pop\Core.hpp" />
-    <ClInclude Include="Source\Pop\EntryPoint.hpp" />
+    <ClInclude Include="Source\Pop\Core\Application.hpp" />
+    <ClInclude Include="Source\Pop\Core\Core.hpp" />
+    <ClInclude Include="Source\Pop\Core\EntryPoint.hpp" />
+    <ClInclude Include="Source\Pop\Core\Log.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source\Pop\Application.cpp" />
+    <ClCompile Include="Source\Pop\Core\Application.cpp" />
+    <ClCompile Include="Source\Pop\Core\Log.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
