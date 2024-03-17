@@ -1,6 +1,6 @@
 #include <Pop.hpp>
 
-class Sandbox : public Pop::Application
+class Sandbox : public Pop::Core::Application
 {
 public:
 	Sandbox()
@@ -12,7 +12,7 @@ public:
 	}
 };
 
-Pop::Application* Pop::CreateApplication()
+Pop::Core::Application* Pop::Core::CreateApplication()
 {
 	return new Sandbox();
 }

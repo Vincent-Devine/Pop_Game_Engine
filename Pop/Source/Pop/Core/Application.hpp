@@ -1,7 +1,7 @@
 #pragma once
-#include "Core.hpp"
+#include "Pop/Core/Core.hpp"
 
-namespace Pop
+namespace Pop::Core
 {
 	class POP_API Application
 	{

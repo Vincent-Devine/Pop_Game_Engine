@@ -1,6 +1,6 @@
 #include "Application.hpp"
 
-namespace Pop
+namespace Pop::Core
 {
 	Application::Application()
 	{

@@ -1,11 +1,11 @@
 #pragma once
 
-#include "Application.hpp"
-#include "Log.hpp"
+#include "Pop/Core/Application.hpp"
+#include "Pop/Core/Log.hpp"
 
 #ifdef POP_PLATFORM_WINDOWS
 
-extern Pop::Application* Pop::CreateApplication();
+extern Pop::Core::Application* Pop::Core::CreateApplication();
 
 int main(int argc, char** argv)
 {
@@ -15,7 +15,7 @@ int main(int argc, char** argv)
 	LOG("Test Warning", Pop::LogLevel::Warning);
 	LOG("Test Critical", Pop::LogLevel::Critical);
 
-	Pop::Application* app = Pop::CreateApplication();
+	Pop::Core::Application* app = Pop::Core::CreateApplication();
 	app->Run();
 	delete app;
 

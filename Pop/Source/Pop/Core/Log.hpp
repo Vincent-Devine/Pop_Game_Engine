@@ -4,26 +4,36 @@
 #include <fstream>
 #include <string>
 
-#include "Core.hpp"
-#include "LogLevel.hpp"
+#include "Pop/Core/Core.hpp"
 
-namespace Pop::Core
+namespace Pop
 {
-	class POP_API Log
+	enum class LogLevel : unsigned int
 	{
-		// Attributes
-	private:
-		static std::ofstream logFile;
-
-		// Methods
-	public:
-		static void OpenFile(const std::filesystem::path& p_filename);
-		static void CloseFile();
-
-		static void Print(const std::string& p_log, const LogLevel& p_logLevel);
+		Info,
+		Validation,
+		Warning,
+		Critical,
 	};
 
-	void POP_API DebugLog(const std::string& p_filename, const unsigned int p_line, const std::string& p_functionName, const std::string p_log, const LogLevel& p_logLevel);
+	namespace Core
+	{
+		class POP_API Log
+		{
+			// Attributes
+		private:
+			static std::ofstream logFile;
+
+			// Methods
+		public:
+			static void OpenFile(const std::filesystem::path& p_filename);
+			static void CloseFile();
+
+			static void Print(const std::string& p_log, const LogLevel& p_logLevel);
+		};
+
+		void POP_API DebugLog(const std::string& p_filename, const unsigned int p_line, const std::string& p_functionName, const std::string p_log, const LogLevel& p_logLevel);
+	}
 }
 
 #define __FILENAME__ (strrchr(__FILE__, '\\') ? strrchr(__FILE__, '\\') + 1 : __FILE__)
