@@ -19,7 +19,14 @@ git clone git@github.com:Vincent-Devine/Pop_Game_Engine.git
 git submodule update --init --recursive
 ```
 
+### Generate Project
+Execute ``` GenerateProjects.bat ``` file. It will generate a Visual Studio 2022 project.
+
 ### Build
+1. Open the ``` Pop.sln ``` file
+2. In the solution explorer, right-click on the **Sandbox** solution and select ``` Set Startup Projects ```
+3. Build the **Pop** project
+4. ``` Run ``` the project (the **Sandbox** project)
 
 ## Technology
 - Engine language: C++
@@ -27,6 +34,7 @@ git submodule update --init --recursive
 - Versionning: [Github](https://github.com/Vincent-Devine/Pop_Game_Engine)
 
 ### Library use
+- [Premake 5](https://github.com/premake/premake-core) - Use to generate project
 
 
 ## Credit
